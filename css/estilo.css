@@ -1,0 +1,60 @@
+*{
+margin: 0;
+}
+
+body {
+    background-color: beige;
+    font-size: 16px;
+    font-family: Arial;
+    
+}
+header {
+    width: 90%;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+figure {
+    width: 100%;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+    height: 288px;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    
+    
+}
+
+footer {
+    width: auto;
+    height: auto;
+    background-color: #FF8C1A;
+}
+
+.logo {
+    width: 196px;
+    display: inline-block;
+}
+
+p {
+    width: 165px;
+    display: inline-flex;
+}
+a {
+    color: forestgreen
+    
+}
+li {
+    display: inline-block;
+    margin: 0 13px;
+}
+li img {
+    width: 50px;
+   }
+
+ul {
+    padding: 0 200px;
+}
