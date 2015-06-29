@@ -3,15 +3,23 @@ margin: 0;
 }
 
 body {
+    color: #4c4c4c;
     background-color: beige;
     font-size: 16px;
-    font-family: Arial;
-    
+    font-family: Arial;     
 }
 header {
-    width: 90%;
-    margin: 0 auto;
+    width: 95%;
+    display: inline-block;
+    vertical-align: left;
+    padding: 0.5em;
     background-color: beige;
+}
+
+header figure, header h1, p
+{
+    display: inline-block;
+    vertical-align: top;
 }
 
 figure {
@@ -19,13 +27,9 @@ figure {
 }
 
 section {
-    width: 90%;
-    margin: 0 auto;
-    height: 288px;
-    background-image: url(../img/fondo.png);
-    background-repeat: no-repeat;
-    
-    
+    width: 100%;
+    margin: 100px auto;
+    height: 300px; 
 }
 
 footer {
@@ -37,14 +41,19 @@ footer {
 .logo {
     width: 196px;
     display: inline-block;
+    position: relative;
 }
 
 p {
     width: 165px;
-    display: inline-flex;
+    float: 
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
 }
 a {
-    color: forestgreen
+    color: forestgreen;
     
 }
 li {
